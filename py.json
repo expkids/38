@@ -3,7 +3,7 @@
 	"sites":[
 		{
 			"key": "芒",
-			"name": "🥭py_芒",
+			"name": "🥭┃百忙无果┃TV",
 			"type": 3,
 			"api": "./py/py_芒.py",
 			"searchable": 1,
@@ -14,7 +14,7 @@
 		},
 		{
 			"key": "腾",
-			"name": "🍵py_腾",
+			"name": "🐧┃腾云驾雾┃TV",
 			"type": 3,
 			"api": "./py/py_腾.py",
 			"searchable": 1,
@@ -25,7 +25,7 @@
 		},
 		{
 			"key": "爱",
-			"name": "🥝py_爱",
+			"name": "🥝┃奇珍异兽┃TV",
 			"type": 3,
 			"api": "./py/py_爱.py",
 			"searchable": 1,
@@ -36,7 +36,7 @@
 		},
 		{
 			"key": "py_光速",
-			"name": "💡py_光速",
+			"name": "💡┃光速┃影视",
 			"type": 3,
 			"api": "./py/py_光速.py",
 			"searchable": 1,
@@ -47,9 +47,20 @@
 		},
 		{
 			"key": "mp",
-			"name": "🐠py_mp",
+			"name": "🐠┃MP┃影视",
 			"type": 3,
 			"api": "./py/py_mp.py",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60
+		},
+		{
+			"key": "cntv央视",
+			"name": "🦆┃CNTV央视┃TV",
+			"type": 3,
+			"api": "./py/py_cntv央视.py",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1,
@@ -58,7 +69,7 @@
 		},	
 		{
 			"key": "hitv",
-			"name": "🎸py_hitv",
+			"name": "🎸┃Hitv┃影视",
 			"type": 3,
 			"api": "./py/py_hitv.py",
 			"searchable": 1,
@@ -69,7 +80,7 @@
 		},
 		{
 			"key": "xpg",
-			"name": "🐽py_xpg",
+			"name": "🐽┃XPG┃影视",
 			"type": 3,
 			"api": "./py/py_xpg.py",
 			"searchable": 1,
@@ -80,7 +91,7 @@
 		},	
 		{
 			"key": "剧多短剧",
-			"name": "🎥py_剧多短剧",
+			"name": "🎥┃剧多┃短剧",
 			"type": 3,
 			"api": "./py/py_剧多短剧.py",
 			"searchable": 1,
@@ -90,19 +101,8 @@
 			"timeout": 60
 		},
 		{
-			"key": "小红书",
-			"name": "🔥py_小红书",
-			"type": 3,
-			"api": "./py/py_小红书.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 1,
-			"timeout": 60
-		},		
-		{
 			"key": "视觉",
-			"name": "🍅py_视觉",
+			"name": "🍅┃视觉┃影视",
 			"type": 3,
 			"api": "./py/py_视觉.py",
 			"searchable": 1,
@@ -113,7 +113,7 @@
 		},
 		{
 			"key": "金牌",
-			"name": "🏅py_金牌",
+			"name": "🏅┃金牌┃影视",
 			"type": 3,
 			"api": "./py/py_金牌.py",
 			"searchable": 1,
@@ -124,7 +124,7 @@
 		},
 		{
 			"key": "胖虎",
-			"name": "🐯py_胖虎",
+			"name": "🐯┃胖虎┃影视",
 			"type": 3,
 			"api": "./py/py_胖虎.py",
 			"searchable": 1,
@@ -1147,6 +1147,4 @@
 		"parses": [
 		],
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
-		"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-		"disabled_wallpaper":"http://www.kf666888.cn/api/tvbox/img"
-}
+		"wallpaper":"https://深色壁纸.xxooo.cf/","logo":"https://gh.xxooo.cf/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/yellow.gif"}
