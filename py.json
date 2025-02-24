@@ -1,5 +1,5 @@
 {
-	"spider":"./pg.jar",
+	"spider":"./pg.jar;md5;9c16582cbdf2a78e0a3c1c5068571356",
 	"sites":[
 		{
 			"key": "芒",
@@ -748,6 +748,7 @@
 		}
 	],
 		"lives":[
+			{"name": "🧧┃ITV直播","url": "https://cnb.cool/junchao.tang/llive/-/git/raw/main/itv.txt","epg": "http://epg.51zmt.top:8000/e.xml","ua": "okhttp/3.15","catchup": {"type": "append","replace": "livemode=1,livemode=4","source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},
 			{
 				"name": "最强国内直播(合并版)",
 				"type": 0,
@@ -1039,12 +1040,18 @@
 			".*ulivetv.*"
 		],
 		"hosts": [
-			"cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-			"cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-			"cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-			"cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-			"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
-		],
+	"cache.ott.ystenlive.itv.cmvideo.cn=itv.dns.xuran1983.cn",
+	"cache.ott.bestlive.itv.cmvideo.cn=itv.dns.xuran1983.cn",
+	"cache.ott.wasulive.itv.cmvideo.cn=itv.dns.xuran1983.cn",
+	"cache.ott.hnbblive.itv.cmvideo.cn=itv.dns.xuran1983.cn",
+	"cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+	"cache.ott.fifalive.itv.cmvideo.cn=itv.dns.xuran1983.cn",
+	"cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+	"cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+	"cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+	"cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+	"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
+],
 		"rules":[
 			{
 				"name": "proxy",
@@ -1148,5 +1155,6 @@
 		],
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 		"wallpaper":"https://深色壁纸.xxooo.cf/",
-		"disabled_wallpaper":"https://gh.xxooo.cf/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/yellow.gif"
+		"disabled_wallpaper":"http://www.kf666888.cn/api/tvbox/img",
+		"logo":"https://ghfast.top/raw.githubusercontent.com/alantang1977/X/main/Pictures/yellow.gif"
 }
